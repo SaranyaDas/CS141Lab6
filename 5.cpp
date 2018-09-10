@@ -29,26 +29,25 @@ int MIN (int x, int y) {
   }
   return z;
 }
-
 int main () {
   //Ask user to input 2 variables 
   char n;
   int a, b;
   cout << "Enter two numbers: " << endl;
   cin >> a >> b;
-  //Ask user their desired operation
-  cout << "Choose desired operation - finding the sum (ADD), maximum (MAX) or minimum (MIN) of two numbers: " << endl;
+  //Ask user for their desired operation
+  cout << "Choose desired operation - finding the sum (A), maximum (B) or minimum (C) of two numbers: " << endl;
   //Call required function and display output 
   cin >> n;
-  if (n == ADD) {
+  if (n == 'A') {
     cout << "The sum is " << ADD (a, b) << "." << endl;
   }
   else {
-    if (n == MAX) {
+    if (n == 'B') {
       cout << "The maximum is " << MAX (a, b) << "." << endl;
     }
     else {
-      if (n == MIN) {
+      if (n == 'C') {
         cout << "The minimum is " << MIN (a, b) << "." << endl;
       }
     }
