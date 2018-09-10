@@ -2,10 +2,10 @@
 #include <iostream>
 using namespace std;
 //Function takes two int parameters,
-int MAX (int x, int y) {
+int MIN (int x, int y) {
 //Find and return maximum
   int z;
-  if (x > y) {
+  if (x < y) {
     z = x;
   }
   else {
@@ -19,8 +19,8 @@ int main () {
   cout << "Enter two numbers: " << endl;
   cin >> a >> b;
   //Call function with numbers as arguments, 
-  c = MAX (a, b);
+  c = MIN (a, b);
   //Display maximum
-  cout << "The maximum is " << c << "." << endl;
+  cout << "The minimum is " << c << "." << endl;
   return 0;
 }
