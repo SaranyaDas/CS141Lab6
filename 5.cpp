@@ -32,9 +32,10 @@ int MIN (int x, int y) {
 
 int main () {
   //Ask user to input 2 variables 
-  char n, int a, b;
+  char n;
+  int a, b;
   cout << "Enter two numbers: " << endl;
-  cin >> a, b;
+  cin >> a >> b;
   //Ask user their desired operation
   cout << "Choose desired operation - finding the sum (ADD), maximum (MAX) or minimum (MIN) of two numbers: " << endl;
   //Call required function and display output 
