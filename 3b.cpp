@@ -1,9 +1,9 @@
 //Library
 #include <iostream>
 using namespace std;
-//Void function takes two int parameters,
+//Void function
 void MAX (int x, int y, int &z) {
-  //Find maximum
+  //Find maximum of two integers
   if (x > y) {
     z = x;
   }
