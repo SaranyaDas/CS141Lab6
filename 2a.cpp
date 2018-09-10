@@ -1,15 +1,17 @@
+//Librarytakes two int parameters,
 #include <iostream>
 using namespace std;
-//function to add two integers
+//Function to add two integers
 int flag (int a,int b) {
-int sum = a + b;
-return sum;
+  int sum = a + b;
+  return sum;
 }
 int main() {
-int a,b;
-//ask user for values
-cout<<"Enter two integers:" << endl;
-cin >> a >> b;
-cout<< flag (a,b) <<" is the sum." << endl;
-return 0;
+  //Ask user for values
+  int a,b;
+  cout<<"Enter two integers:" << endl;
+  cin >> a >> b;
+  //Display sum
+  cout<< flag (a,b) <<" is the sum." << endl;
+  return 0;
 }
