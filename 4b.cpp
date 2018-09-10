@@ -3,7 +3,7 @@
 using namespace std;
 //Void function
 void MIN (int x, int y, int &z) {
-  //Find maximum of two integers
+  //Find minimum of two integers
   if (x < y) {
     z = x;
   }
