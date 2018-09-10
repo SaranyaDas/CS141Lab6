@@ -3,7 +3,7 @@
 using namespace std;
 //Function takes two int parameters,
 int MIN (int x, int y) {
-//Find and return maximum
+//Find and return minimum
   int z;
   if (x < y) {
     z = x;
