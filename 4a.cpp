@@ -20,7 +20,7 @@ int main () {
   cin >> a >> b;
   //Call function with numbers as arguments, 
   c = MIN (a, b);
-  //Display maximum
+  //Display minimum
   cout << "The minimum is " << c << "." << endl;
   return 0;
 }
