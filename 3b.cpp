@@ -12,13 +12,13 @@ void MAX (int x, int y, int &z) {
   }
 }
 int main () {
-  //ask user for two numbers
+  //Ask user for two numbers
   int a, b, c;
   cout << "Enter two numbers: " << endl;
   cin >> a >> b;
-  //call function with numbers as arguments, 
+  //Call function with numbers as arguments, 
   MAX (a, b, c);
-  //display maximum
+  //Display maximum
   cout << "The maximum is " << c << "." << endl;
   return 0;
 }
