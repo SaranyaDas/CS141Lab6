@@ -70,7 +70,7 @@ int main() {
   sumSquareOdd = sumSquareOddNumbers(firstNum,secondNum);
   //Then display the values
   cout <<"The sum of the even numbers inbetween the two entered numbers is " << sumEven << "." << endl;
-  cout <<"The sum of the odd numbers inbetween the two entered numbers is" << sumOdd << "." << endl;
+  cout <<"The sum of the odd numbers inbetween the two entered numbers is " << sumOdd << "." << endl;
   cout <<"The sum of the square of the even numbers inbetween the two entered numbers is " << sumSquareEven << "." << endl;
   cout <<"The sum of the square of the odd numbers inbetween the two entered numbers is " << sumSquareOdd << "." << endl;
   return 0;
